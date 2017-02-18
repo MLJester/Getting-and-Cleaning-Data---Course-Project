@@ -5,7 +5,7 @@ Download the dataset if it does not already exist in the working directory
 1. Merges the training and test sets to create one data set.
 
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
-   * These measurements are defined as those ending in either "mean()" or std() as defined in the file `features_info.txt` available for download [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+   * These measurements are defined as those ending in either "mean()" or std() as defined in the file `features_info.txt` available for download as part of the complete data package [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 3. Uses descriptive activity names to name the activities in the data set.
 
@@ -21,4 +21,5 @@ The end result is shown in the file `Summarized_Wearable_Data.txt`. Data in this
 In this repository you will find:
 * __ReadMe.md:__ this file
 * __Code Book.md:__ an explanation of the fields contained in `Summarized_Wearable_Data.txt`
+* __run_analysis.R:__ R script that processes the raw data and outputs the file `Summarized_Wearable_Data.txt`.
 * __Summarized_Wearable_Data.txt:__ a tidy data set showing the average for each variable for each activity and subject
