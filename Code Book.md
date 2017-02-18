@@ -4,6 +4,7 @@ This code book summarizes the data contained in `Summarized_Wearable_Data.txt.
 ### Identifiers
 * __Subject:__ a unique identifier for each subject who participated in the experiment
 * __Activity:__ a description of the activity the subject was undertaking at the time of the observation
+
 ----
 ### Measurements
 The average of the values for each measurement in the raw data. All measurements are normalized so values are between -1 and 1.
@@ -73,6 +74,7 @@ The average of the values for each measurement in the raw data. All measurements
 * FrequencyBodyBodyGyroscopeMagnitudeStandardDeviation
 * FrequencyBodyBodyGyroscopeJerkMagnitudeMean
 * FrequencyBodyBodyGyroscopeJerkMagnitudeStandardDeviation
+
 ----
 ### Activity Descriptions
 * __WALKING:__ subject was walking during the test
